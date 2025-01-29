@@ -1,0 +1,64 @@
+<style>
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: grey;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+    input[type="submit"] {
+        margin-top: 2px;
+    border-style: solid;
+    background-color: grey;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 20px;
+    cursor: pointer;
+    }
+    h2{
+        font-weight: lighter;
+    }
+</style>
+<html>
+
+<body>
+    <div class="container">
+        <form method="post" action="LoginServlet">
+            <h2>Please Enter Your Login Credentials</h2>
+
+            <p>User Name:</p> <input type="text" name="uname" required><br>
+            <p>Password: </p><input type="password" name="password" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
