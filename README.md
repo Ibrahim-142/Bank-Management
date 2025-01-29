@@ -12,7 +12,7 @@ Bank Customer Page:<br>
 <b>4.Check Payments History </b><br>
 Login Page – Directs users to the appropriate page based on their role (admin or customer), as defined in the database.
 The database structure consists of three tables, with an ID as the primary key, to manage all functionalities efficiently.<br>
-Applied Layers for seperation of logic.All the Database Logic is in personDAO
+Applied Layers for seperation of logic.All the Database Logic is in personDAO.
 
 
 
