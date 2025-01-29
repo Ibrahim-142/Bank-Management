@@ -3,7 +3,8 @@ This is my first web project, developed in just four days during my web developm
 Admin Page<br>
 Bank Customer Page<br>
 Login Page – Directs users to the appropriate page based on their role (admin or customer), as defined in the database.
-The database structure consists of three tables, with an ID as the primary key, to manage all functionalities efficiently.
+The database structure consists of three tables, with an ID as the primary key, to manage all functionalities efficiently.<br>
+Applied Layers for seperation of logic.All the Database Logic is in personDAO
 
 
 
