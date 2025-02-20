@@ -185,7 +185,7 @@ public class PersonDAO {
 
 			Statement st = con.createStatement();
 
-			String query = "Delete from info Where username="+id;
+			String query = "Delete from info Where id="+id;
 
 			System.out.println(query);
 
